@@ -14,7 +14,7 @@
     <body>
         <h1>Hello, World!</h1>
         <h2>Java Page</h2>
-        <div><%= new java.util.Date() %></div>
+        <div>Data/hora no servidor: <%= new java.util.Date() %></div>
         <a href="index.html">Voltar para página inicial</a>
     </body>
 </html>

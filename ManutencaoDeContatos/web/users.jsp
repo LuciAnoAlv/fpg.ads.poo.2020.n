@@ -59,7 +59,7 @@
             <%for(int i=0; i<userList.size(); i++){%>
                 <% Users user = userList.get(i); %>
                 <tr>
-                    <td><%= i %></td>
+                    <td>#<%= i + 1 %></td>
                     <td><%= user.getName() %></td>
                     <td><%= user.getTelefone() %></td>
                     <td><%= user.getEmail() %></td>

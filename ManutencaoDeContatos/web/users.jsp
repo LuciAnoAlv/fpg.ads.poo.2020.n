@@ -48,12 +48,13 @@
             <input type="submit" name="add" value="Adicionar Contato"/>
         </form>
         <hr/>
-        <table border="1">
+        <table border="4">
             <tr>
                 <th>Índice</th>
                 <th>Nome</th>
                 <th>Telefone</th>
                 <th>Email</th>
+                <th>Remover</th>
             </tr>
             <%for(int i=0; i<userList.size(); i++){%>
                 <% Users user = userList.get(i); %>

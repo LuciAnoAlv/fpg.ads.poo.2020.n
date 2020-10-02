@@ -17,6 +17,7 @@
          userList.add(new Users("Beltrano", "23417787", "beltrano@domain.com"));
          userList.add(new Users("Cicrano","22334477" , "cicrano@domain.com"));
          application.setAttribute("userList", userList);
+         
      }
      
      if(request.getParameter("add")!=null){

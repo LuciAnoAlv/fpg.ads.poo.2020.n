@@ -42,7 +42,7 @@
         <div><a href="index.jsp">Voltar</a></div>
         <h1>JavaOO</h1>
         <h2>Usuários</h2>
-        <form method="post">
+        <form  method="post">
             Nome: <input type="text" name="name"/>
             Email: <input type="text" name="email"/>
             Password: <input type="password" name="password"/>
